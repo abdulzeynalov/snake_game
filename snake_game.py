@@ -147,4 +147,4 @@ while True:
     screen.blit(score_text, (10, 0))
 
     pygame.display.update()
-    clock.tick(10)
+    clock.tick(01)
