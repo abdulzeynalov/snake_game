@@ -29,7 +29,7 @@ class snake:
             return True
         else:
             self.body.insert(0,head)
-            self.body.pop
+            self.body.pop()
             return False 
     def change_direction(self, new_direction):
         if (new_direction[0] * -1, new_direction[1] * -1) != self.direction:
